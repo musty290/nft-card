@@ -1,0 +1,98 @@
+.grid {
+  display: flex;
+}
+
+.icon-number {
+  padding-left: 5rem;
+  display: flex;
+  margin-top: 1.2rem;
+}
+
+.card__image img {
+  border-radius: 10px;
+}
+
+.icon-number p {
+  margin-top: auto;
+  padding-left: 0.5rem;
+  color: hsl(215, 51%, 70%);
+}
+.icon-ethereum {
+  display: flex;
+  margin: auto 0;
+}
+
+.icon-ethereum .ethereum {
+  padding-left: 0.5rem;
+  color: hsl(178, 100%, 50%);
+}
+
+.card {
+  padding: 2rem;
+  background-color: gold;
+  border-radius: 20px;
+  background: hsl(215, 32%, 27%);
+}
+
+.container {
+  padding: 4rem 2rem;
+  width: 375px;
+  background: gold;
+  background: hsl(217, 54%, 11%);
+}
+.card__body {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.card__body-header p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__content {
+  display: flex;
+  padding-right: 5rem;
+}
+
+.footer__color {
+  color: hsl(215, 51%, 70%);
+}
+
+.footer__normal {
+  color: hsl(0, 0%, 100%);
+  padding-left: 0.5rem;
+}
+
+.line {
+  border: 1px solid hsl(218, 20%, 33%);
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1140px) {
+  .container {
+    padding: 5rem 30rem;
+  }
+
+  .card__image img:hover {
+    background-color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+
+  .card__body:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+  .footer__normal:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+}
